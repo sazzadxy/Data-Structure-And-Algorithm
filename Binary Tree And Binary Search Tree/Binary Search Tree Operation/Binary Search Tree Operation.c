@@ -132,8 +132,8 @@ void preorder(Node *rt)
 {
     if(rt != NULL){
         printf("%4d",rt->key);
-        inorder(rt->left);
-        inorder(rt->right);
+        preorder(rt->left);
+        preorder(rt->right);
     }else
         return;
 }
@@ -141,8 +141,8 @@ void preorder(Node *rt)
 void postorder(Node *rt)
 {
     if(rt != NULL){
-        inorder(rt->left);
-        inorder(rt->right);
+        postorder(rt->left);
+        postorder(rt->right);
         printf("%4d",rt->key);
     }else
         return;
