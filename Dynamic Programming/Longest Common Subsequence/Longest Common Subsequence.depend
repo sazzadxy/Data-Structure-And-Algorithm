@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1650087759 source:f:\workshop\ds&algo\dynamic programming\longest common subsequence\lcs.cpp
+	<iostream>
+	<string>
+
